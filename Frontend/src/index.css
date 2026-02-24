@@ -1,0 +1,358 @@
+/* src/index.css - SAB KUCH YAHAN HI HAI - NO CONFIG FILE NEEDED */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* ====================== ALL YOUR CUSTOM STYLES ====================== */
+@import "tailwindcss";
+@theme {
+  --color-button-outline: rgba(0,0,0, .10);
+  --color-badge-outline: rgba(0,0,0, .05);
+  --opaque-button-border-intensity: -8;
+  --color-elevate-1: rgba(0,0,0, .03);
+  --color-elevate-2: rgba(0,0,0,0, .08);
+
+  --color-background: hsl(0, 0%, 98%);
+  --color-foreground: hsl(222, 47%, 11%);
+  --color-border-dark: hsl(0, 0%, 88%);/* copy */
+  --color-border: hsl(0, 0%, 88%);
+  --color-card: hsl(0, 0%, 100%);
+  --color-card-foreground: hsl(222, 47%, 11%);
+  --color-card-border: hsl(0, 0%, 93%);
+  --color-sidebar: hsl(0, 0%, 96%);
+  --color-sidebar-foreground: hsl(222, 47% 11%);
+  --color-sidebar-border: hsl(0, 0%, 90%);
+  --color-sidebar-primary: hsl(262, 83%, 58%);
+  --color-sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --color-sidebar-accent: hsl(0, 0%, 92%);
+  --color-sidebar-accent-foreground: hsl(222, 47%, 11%);
+  --color-sidebar-ring: hsl(262, 83%, 58%);
+  --color-popover: hsl(0, 0%, 100%);
+  --color-popover-foreground: hsl(222, 47%, 11%);
+  --color-popover-border: hsl(0, 0%, 90%);
+  --color-primary: hsl(262, 83%, 58%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-secondary: hsl(0, 0%, 94%);
+  --color-secondary-foreground: hsl(222, 47%, 11%);
+  --color-muted: hsl(262, 8%, 95%);
+  --color-muted-foreground: hsl(0, 0%, 40%);
+  --color-accent: hsl(262, 12%, 94%);
+  --color-accent-foreground: hsl(222, 47%, 11%);
+  --color-destructive: hsl(0, 72%, 51%);
+  --color-destructive-foreground: hsl(0, 0%, 1%);
+  --color-input: hsl(0, 0%, 80%);
+  --color-ring: hsl(262, 83%, 58%);
+  --color-chart-1: hsl(262, 83%, 58%);
+  --color-chart-2: hsl(200, 100%, 50%);
+  --color-chart-3: hsl(142, 71%, 45%);
+  --color-chart-4: hsl(38, 92%, 50%);
+  --color-chart-5: hsl(0, 72%, 51%);
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: 'JetBrains Mono', Menlo, monospace;
+  --radius: .5rem;
+
+  --shadow-2xs: 0px 1px 2px 0px hsl(222, 47%, 11%, 0.05);
+  --shadow-xs: 0px 1px 2px 0px hsl(222, 47%, 11%, 0.06);
+  --shadow-sm: 0px 1px 2px 0px hsl(222, 47%, 11%, 0.06), 0px 1px 3px 0px hsl(222, 47%, 11%, 0.10);
+  --shadow: 0px 1px 3px 0px hsl(222, 47%, 11%, 0.10), 0px 1px 2px -1px hsl(222, 47%, 11%, 0.10);
+  --shadow-md: 0px 4px 6px -1px hsl(222, 47%, 11%, 0.10), 0px 2px 4px -2px hsl(222, 47%, 11%, 0.10);
+  --shadow-lg: 0px 10px 15px -3px hsl(222, 47%, 11%, 0.10), 0px 4px 6px -4px hsl(222, 47%, 11%, 0.10);
+  --shadow-xl: 0px 20px 25px -5px hsl(222, 47%, 11%, 0.10), 0px 8px 10px -6px hsl(222, 47%, 11%, 0.10);
+  --shadow-2xl: 0px 25px 50px -12px hsl(222, 47%, 11%, 0.25);
+
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
+
+  /* Computed borders (kept with --color- prefix for consistency) */
+  --color-sidebar-primary-border: hsl(var(--color-sidebar-primary));
+  --color-sidebar-primary-border: hsl(from hsl(var(--color-sidebar-primary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-sidebar-accent-border: hsl(var(--color-sidebar-accent));
+  --color-sidebar-accent-border: hsl(from hsl(var(--color-sidebar-accent)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-primary-border: hsl(var(--color-primary));
+  --color-primary-border: hsl(from hsl(var(--color-primary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-secondary-border: hsl(var(--color-secondary));
+  --color-secondary-border: hsl(from hsl(var(--color-secondary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-muted-border: hsl(var(--color-muted));
+  --color-muted-border: hsl(from hsl(var(--color-muted)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-accent-border: hsl(var(--color-accent));
+  --color-accent-border: hsl(from hsl(var(--color-accent)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-destructive-border: hsl(var(--color-destructive));
+  --color-destructive-border: hsl(from hsl(var(--color-destructive)) h s calc(l + var(--opaque-button-border-intensity)));
+}
+
+.dark {
+  --color-button-outline: rgba(255,255,255, .10);
+  --color-badge-outline: rgba(255,255,255, .05);
+  --opaque-button-border-intensity: 9;
+  --color-elevate-1: rgba(255,255,255, .04);
+  --color-elevate-2: rgba(255,255,255, .09);
+
+  --color-background: hsl(222 47% 11%);
+  --color-foreground: hsl(0, 0%, 98%);
+  --color-border-dark: hsl(222, 47%, 20%); /* copy */
+  --color-border: hsl(222, 47%, 20%);
+  --color-card: hsl(222, 47%, 14%);
+  --color-card-foreground: hsl(0, 0%, 98%);
+  --color-card-border: hsl(222, 47%, 18%);
+  --color-sidebar: hsl(222, 47%, 17%);
+  --color-sidebar-foreground: hsl(0, 0%, 98%);
+  --color-sidebar-border: hsl(222, 47%, 21%);
+  --color-sidebar-primary: hsl(262, 83%, 58%);
+  --color-sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --color-sidebar-accent: hsl(222, 47%, 21%);
+  --color-sidebar-accent-foreground: hsl(0, 0%, 98%);
+  --color-sidebar-ring: hsl(262, 83%, 65%);
+  --color-popover: hsl(222, 47%, 16%);
+  --color-popover-foreground: hsl(0, 0%, 98%);
+  --color-popover-border: hsl(222, 47%, 20%);
+  --color-primary: hsl(262, 83%, 58%);
+  --color-primary-foreground: hsl(0, 0%, 100%);
+  --color-secondary: hsl(222, 47%, 20%);
+  --color-secondary-foreground: hsl(0, 0%, 98%);
+  --color-muted: hsl(222, 12%, 18%);
+  --color-muted-foreground: hsl(0, 0%, 71%);
+  --color-accent: hsl(262, 18%, 19%);
+  --color-accent-foreground: hsl(0, 0%, 98%);
+  --color-destructive: hsl(0, 84%, 60%);
+  --color-destructive-foreground: hsl(0, 0%, 100%);
+  --color-input: hsl(222, 47%, 25%);
+  --color-ring: hsl(262, 83%, 65%);
+  --color-chart-1: hsl(262, 83%, 65%);
+  --color-chart-2: hsl(200, 100%, 60%);
+  --color-chart-3: hsl(142, 76%, 55%);
+  --color-chart-4: hsl(38, 92%, 60%);
+  --color-chart-5: hsl(0, 84%, 65%);
+
+  --shadow-2xs: 0px 1px 2px 0px hsl(0, 0%, 0%, 0.30);
+  --shadow-xs: 0px 1px 2px 0px hsl(0, 0%, 0%, 0.40);
+  --shadow-sm: 0px 1px 2px 0px hsl(0, 0%, 0%, 0.40), 0px 1px 3px 0px hsl(0, 0%, 0%, 0.30);
+  --shadow: 0px 1px 3px 0px hsl(0, 0%, 0%, 0.40), 0px 1px 2px -1px hsl(0, 0%, 0%, 0.30);
+  --shadow-md: 0px 4px 6px -1px hsl(0, 0%, 0%, 0.40), 0px 2px 4px -2px hsl(0, 0%, 0%, 0.30);
+  --shadow-lg: 0px 10px 15px -3px hsl(0, 0%, 0%, 0.40), 0px 4px 6px -4px hsl(0, 0%, 0%, 0.30);
+  --shadow-xl: 0px 20px 25px -5px hsl(0, 0%, 0%, 0.50), 0px 8px 10px -6px hsl(0, 0%, 0%, 0.30);
+  --shadow-2xl: 0px 25px 50px -12px hsl(0, 0%, 0%, 0.60);
+
+  /* Dark mode computed borders */
+  --color-sidebar-primary-border: hsl(var(--color-sidebar-primary));
+  --color-sidebar-primary-border: hsl(from hsl(var(--color-sidebar-primary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-sidebar-accent-border: hsl(var(--color-sidebar-accent));
+  --color-sidebar-accent-border: hsl(from hsl(var(--color-sidebar-accent)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-primary-border: hsl(var(--color-primary));
+  --color-primary-border: hsl(from hsl(var(--color-primary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-secondary-border: hsl(var(--color-secondary));
+  --color-secondary-border: hsl(from hsl(var(--color-secondary)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-muted-border: hsl(var(--color-muted));
+  --color-muted-border: hsl(from hsl(var(--color-muted)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-accent-border: hsl(var(--color-accent));
+  --color-accent-border: hsl(from hsl(var(--color-accent)) h s calc(l + var(--opaque-button-border-intensity)));
+  --color-destructive-border: hsl(var(--color-destructive));
+  --color-destructive-border: hsl(from hsl(var(--color-destructive)) h s calc(l + var(--opaque-button-border-intensity)));
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+
+  /* Hide ugly search cancel button in Chrome until we can style it properly */
+  input[type="search"]::-webkit-search-cancel-button {
+    @apply hidden;
+  }
+
+  /* Placeholder styling for contentEditable div */
+  [contenteditable][data-placeholder]:empty::before {
+    content: attr(data-placeholder);
+    color: hsl(var(--muted-foreground));
+    pointer-events: none;
+  }
+
+  /* .no-default-hover-elevate/no-default-active-elevate is an escape hatch so consumers of
+   * buttons/badges can remove the automatic brightness adjustment on interactions
+   * and program their own. */
+  .no-default-hover-elevate {}
+
+  .no-default-active-elevate {}
+
+
+  /**
+   * Toggleable backgrounds go behind the content. Hoverable/active goes on top.
+   * This way they can stack/compound. Both will overlap the parent's borders!
+   * So borders will be automatically adjusted both on toggle, and hover/active,
+   * and they will be compounded.
+   */
+  .toggle-elevate::before,
+  .toggle-elevate-2::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    z-index: -1;
+  }
+
+  .toggle-elevate.toggle-elevated::before {
+    background-color: var(--elevate-2);
+  }
+
+  /* If there's a 1px border, adjust the inset so that it covers that parent's border */
+  .border.toggle-elevate::before {
+    inset: -1px;
+  }
+
+  /* Does not work on elements with overflow:hidden! */
+  .hover-elevate:not(.no-default-hover-elevate),
+  .active-elevate:not(.no-default-active-elevate),
+  .hover-elevate-2:not(.no-default-hover-elevate),
+  .active-elevate-2:not(.no-default-active-elevate) {
+    position: relative;
+    z-index: 0;
+  }
+
+  .hover-elevate:not(.no-default-hover-elevate)::after,
+  .active-elevate:not(.no-default-active-elevate)::after,
+  .hover-elevate-2:not(.no-default-hover-elevate)::after,
+  .active-elevate-2:not(.no-default-active-elevate)::after {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: 0px;
+    border-radius: inherit;
+    z-index: 999;
+  }
+
+  .hover-elevate:hover:not(.no-default-hover-elevate)::after,
+  .active-elevate:active:not(.no-default-active-elevate)::after {
+    background-color: var(--elevate-1);
+  }
+
+  .hover-elevate-2:hover:not(.no-default-hover-elevate)::after,
+  .active-elevate-2:active:not(.no-default-active-elevate)::after {
+    background-color: var(--elevate-2);
+  }
+
+  /* If there's a 1px border, adjust the inset so that it covers that parent's border */
+  .border.hover-elevate:not(.no-hover-interaction-elevate)::after,
+  .border.active-elevate:not(.no-active-interaction-elevate)::after,
+  .border.hover-elevate-2:not(.no-hover-interaction-elevate)::after,
+  .border.active-elevate-2:not(.no-active-interaction-elevate)::after,
+  .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
+    inset: -1px;
+  }
+}
+/* ====================== CUSTOM UTILITIES (No config needed) ====================== */
+
+  .bg-destructive { background-color: hsl(var(--destructive)); }
+
+  /* Background & Text */
+  /* .bg-background { background-color: hsl(var(--background)); }
+  .bg-foreground { background-color: hsl(var(--foreground)); }
+  .bg-card { background-color: hsl(var(--card)); }
+  .bg-primary { background-color: hsl(var(--primary)); }
+  .bg-secondary { background-color: hsl(var(--secondary)); }
+  .bg-muted { background-color: hsl(var(--muted)); }
+  .bg-accent { background-color: hsl(var(--accent)); } 
+  .bg-destructive { background-color: hsl(var(--destructive)); }
+   .bg-popover { background-color: hsl(var(--popover)); }
+
+  .text-foreground { color: hsl(var(--foreground)); }
+  .text-primary { color: hsl(var(--primary)); }
+  .text-primary-foreground { color: hsl(var(--primary-foreground)); }
+  .text-muted { color: hsl(var(--muted-foreground)); } */
+
+  /* Borders */
+  .border-border { border-color: hsl(var(--border)); }
+  .ring-ring { outline: 2px solid transparent; outline-offset: 2px; box-shadow: 0 0 0 1px hsl(var(--ring)); }
+
+  /* Border Radius */
+  .rounded-lg { border-radius: calc(var(--radius) + 4px); }
+  .rounded-md { border-radius: var(--radius); }
+  .rounded-sm { border-radius: calc(var(--radius) - 2px); }
+
+
+  /* Status Colors */
+  .bg-status-online { background-color: rgb(34 197 94); }
+  .bg-status-away { background-color: rgb(245 158 11); }
+  .bg-status-busy { background-color: rgb(239 68 68); }
+  .bg-status-offline { background-color: rgb(156 163 175); }
+  .bg-destructive { background-color: hsl(var(--destructive)); }
+
+  /* Hover Elevate Effect (tumhara favorite!) */
+  .hover-elevate::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: rgba(0,0,0,0.04);
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+  }
+  .hover-elevate:hover::after { opacity: 1; }
+  .dark .hover-elevate::after { background: rgba(255,255,255,0.06); }
+/* ─────── Beautiful Custom Scrollbar (Dark Mode Friendly) ─────── */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;           /* slate-400 */
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;           /* slate-500 */
+  border-color: transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox Support */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #94a3b8 transparent;
+}
+input[type="date"] {
+    background-image: url("data:image/svg+xml,%3Csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cmask%20id='mask0_186_4562'%20style='mask-type:alpha'%20maskUnits='userSpaceOnUse'%20x='0'%20y='0'%20width='20'%20height='20'%3E%3Crect%20width='20'%20height='20'%20fill='%23D9D9D9'/%3E%3C/mask%3E%3Cg%20mask='url(%23mask0_186_4562)'%3E%3Cpath%20d='M4.16667%2018.3333C3.70833%2018.3333%203.31597%2018.1701%202.98958%2017.8437C2.66319%2017.5173%202.5%2017.125%202.5%2016.6666V4.99996C2.5%204.54163%202.66319%204.14926%202.98958%203.82288C3.31597%203.49649%203.70833%203.33329%204.16667%203.33329H5V2.49996C5%202.26385%205.07986%202.06593%205.23958%201.90621C5.39931%201.74649%205.59722%201.66663%205.83333%201.66663C6.06944%201.66663%206.26736%201.74649%206.42708%201.90621C6.58681%202.06593%206.66667%202.26385%206.66667%202.49996V3.33329H13.3333V2.49996C13.3333%202.26385%2013.4132%202.06593%2013.5729%201.90621C13.7326%201.74649%2013.9306%201.66663%2014.1667%201.66663C14.4028%201.66663%2014.6007%201.74649%2014.7604%201.90621C14.9201%202.06593%2015%202.26385%2015%202.49996V3.33329H15.8333C16.2917%203.33329%2016.684%203.49649%2017.0104%203.82288C17.3368%204.14926%2017.5%204.54163%2017.5%204.99996V16.6666C17.5%2017.125%2017.3368%2017.5173%2017.0104%2017.8437C16.684%2018.1701%2016.2917%2018.3333%2015.8333%2018.3333H4.16667ZM4.16667%2016.6666H15.8333V8.33329H4.16667V16.6666ZM4.16667%206.66663H15.8333V4.99996H4.16667V6.66663Z'%20fill='%23A1A1A1'/%3E%3C/g%3E%3C/svg%3E");    
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+    background-size: 18px;
+    color: #A1A1A1;
+}
+input[type="date"]::-webkit-datetime-edit {
+    color: #A1A1A1;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+input[type="time"] {
+    color: #A1A1A1;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(65%) sepia(0%) saturate(20%) hue-rotate(240deg) brightness(97%) contrast(85%);   
+    opacity: 1; 
+    display: block;
+}
+input[type="time"]::-webkit-datetime-edit {
+    color: #A1A1A1;
+}
