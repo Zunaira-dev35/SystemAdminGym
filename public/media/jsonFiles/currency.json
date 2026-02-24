@@ -1,0 +1,815 @@
+{
+  
+      "USD": {
+          "symbol": "$",
+          "text": "USD ($)",
+          "iso": "usd"
+      }
+  ,
+  
+      "AED": {
+          "symbol": "د.إ",
+          "text": "AED (د.إ)",
+          "iso": "aed"
+      }
+  ,
+  
+      "AFN": {
+          "symbol": "؋",
+          "text": "AFN* (؋)",
+          "iso": "afn"
+      }
+  ,
+  
+      "ALL": {
+          "symbol": "L",
+          "text": "ALL (L)",
+          "iso": "all"
+      }
+  ,
+  
+      "AMD": {
+          "symbol": "֏",
+          "text": "AMD (֏)",
+          "iso": "amd"
+      }
+  ,
+  
+      "ANG": {
+          "symbol": "ƒ",
+          "text": "ANG (ƒ)",
+          "iso": "ang"
+      }
+  ,
+  
+      "AOA": {
+          "symbol": "Kz",
+          "text": "AOA* (Kz)",
+          "iso": "aoa"
+      }
+  ,
+  
+      "ARS": {
+          "symbol": "$",
+          "text": "ARS* ($)",
+          "iso": "ars"
+      }
+  ,
+  
+      "AUD": {
+          "symbol": "$",
+          "text": "AUD ($)",
+          "iso": "aud"
+      }
+  ,
+  
+      "AWG": {
+          "symbol": "ƒ",
+          "text": "AWG (ƒ)",
+          "iso": "awg"
+      }
+  , 
+        "AZN": {
+            "symbol": "₼",
+            "text": "AZN (₼)",
+            "iso": "azn"
+        },
+    
+        "BAM": {
+            "symbol": "KM",
+            "text": "BAM (KM)",
+            "iso": "bam"
+        }
+    ,   
+        "BBD": {
+            "symbol": "$",
+            "text": "BBD ($) - $",
+            "iso": "bbd"
+        }
+    ,
+    
+        "BDT": {
+            "symbol": "৳",
+            "text": "BDT (৳)",
+            "iso": "bdt"
+        }
+    ,
+        "BGN": {
+            "symbol": "лв",
+            "text": "BGN (лв)",
+            "iso": "bgn"
+        },
+        "BIF": {
+            "symbol": "FBu",
+            "text": "BIF (FBu)",
+            "iso": "bif"
+        },
+        "BMD": {
+            "symbol": "$",
+            "text": "BMD ($)",
+            "iso": "bmd"
+        }
+    ,
+        "BND": {
+            "symbol": "$",
+            "text": "BND ($)",
+            "iso": "bnd"
+        }
+    ,
+        "BOB": {
+            "symbol": "Bs.",
+            "text": "BOB* (Bs.)",
+            "iso": "bob"
+        }
+    ,
+        "BRL": {
+            "symbol": "R$",
+            "text": "BRL* (R$)",
+            "iso": "brl"
+        }
+    ,
+          "BSD": {
+              "symbol": "$",
+              "text": "BSD ($)",
+              "iso": "bsd"
+          }
+    ,
+          "BWP": {
+              "symbol": "P",
+              "text": "BWP (P)",
+              "iso": "bwp"
+          }
+    ,
+          "BYN": {
+              "symbol": "Br",
+              "text": "BYN (Br)",
+              "iso": "byn"
+          }
+    ,
+          "BZD": {
+              "symbol": "BZ$",
+              "text": "BZD (BZ$) - BZ$",
+              "iso": "bzd"
+          }
+    ,
+          "CAD": {
+              "symbol": "$",
+              "text": "CAD ($)",
+              "iso": "cad"
+          }
+    ,
+          "CDF": {
+              "symbol": "FC",
+              "text": "CDF (FC)",
+              "iso": "cdf"
+          }
+    ,
+          "CHF": {
+              "symbol": "CHF",
+              "text": "CHF (CHF)",
+              "iso": "chf"
+          }
+    ,
+          "CLP": {
+              "symbol": "$",
+              "text": "CLP* ($)",
+              "iso": "clp"
+          }
+    ,
+          "CNY": {
+              "symbol": "¥",
+              "text": "CNY (¥)",
+              "iso": "cny"
+          }
+    ,
+          "COP": {
+              "symbol": "$",
+              "text": "COP* ($)",
+              "iso": "cop"
+          }
+    ,
+          "CRC": {
+              "symbol": "₡",
+              "text": "CRC* (₡)",
+              "iso": "crc"
+          }
+    ,
+          "CVE": {
+              "symbol": "$",
+              "text": "CVE* ($)",
+              "iso": "cve"
+          }
+    ,
+          "CZK": {
+              "symbol": "Kč",
+              "text": "CZK (Kč)",
+              "iso": "czk"
+          }
+    ,
+          "DJF": {
+              "symbol": "Fdj",
+              "text": "DJF* (Fdj)",
+              "iso": "djf"
+          }
+    ,
+          "DKK": {
+              "symbol": "kr",
+              "text": "DKK (kr)",
+              "iso": "dkk"
+          }
+    ,
+          "DOP": {
+              "symbol": "RD$",
+              "text": "DOP (RD$)",
+              "iso": "dop"
+          }
+    ,
+          "DZD": {
+              "symbol": "د.ج",
+              "text": "DZD (د.ج)",
+              "iso": "dzd"
+          }
+    ,
+          "EGP": {
+              "symbol": "ج.م",
+              "text": "EGP (ج.م)",
+              "iso": "egp"
+          }
+    ,
+          "ETB": {
+              "symbol": "ብር",
+              "text": "ETB (ብር)",
+              "iso": "etb"
+          }
+    ,
+          "EUR": {
+              "symbol": "€",
+              "text": "EUR (€)",
+              "iso": "eur"
+          }
+    ,
+            "FJD": {
+                "symbol": "$",
+                "text": "FJD ($)",
+                "iso": "fjd"
+            }
+    ,
+            "FKP": {
+                "symbol": "£",
+                "text": "FKP (£)",
+                "iso": "fkp"
+            }
+    ,
+            "GBP": {
+                "symbol": "£",
+                "text": "GBP (£)",
+                "iso": "gbp"
+            }
+    ,
+            "GEL": {
+                "symbol": "₾",
+                "text": "GEL (₾)",
+                "iso": "gel"
+            }
+    ,
+            "GIP": {
+                "symbol": "£",
+                "text": "GIP (£)",
+                "iso": "gip"
+            }
+    ,
+            "GMD": {
+                "symbol": "D",
+                "text": "GMD (D)",
+                "iso": "gmd"
+            }
+    ,
+            "GNF": {
+                "symbol": "FG",
+                "text": "GNF (FG)",
+                "iso": "gnf"
+            }
+    ,
+            "GTQ": {
+                "symbol": "Q",
+                "text": "GTQ (Q)",
+                "iso": "gtq"
+            }
+    ,
+            "GYD": {
+                "symbol": "$",
+                "text": "GYD ($)",
+                "iso": "gyd"
+            }
+    ,
+            "HKD": {
+                "symbol": "HK$",
+                "text": "HKD (HK$)",
+                "iso": "hkd"
+            }
+    ,
+            "HNL": {
+                "symbol": "L",
+                "text": "HNL (L)",
+                "iso": "hnl"
+            }
+    ,
+            "HTG": {
+                "symbol": "G",
+                "text": "HTG (G)",
+                "iso": "htg"
+            }
+    ,
+            "HUF": {
+                "symbol": "Ft",
+                "text": "HUF (Ft)",
+                "iso": "huf"
+            }
+    ,
+            "IDR": {
+                "symbol": "Rp",
+                "text": "IDR (Rp)",
+                "iso": "idr"
+            }
+    ,
+            "ILS": {
+                "symbol": "₪",
+                "text": "ILS (₪)",
+                "iso": "ils"
+            }
+    ,
+            "INR": {
+                "symbol": "₹",
+                "text": "INR (₹)",
+                "iso": "inr"
+            }
+    ,
+            "ISK": {
+                "symbol": "kr",
+                "text": "ISK (kr)",
+                "iso": "isk"
+            }
+    ,
+            "JMD": {
+                "symbol": "J$",
+                "text": "JMD (J$)",
+                "iso": "jmd"
+            }
+    ,  
+            "JPY": {
+                "symbol": "¥",
+                "text": "JPY (¥)",
+                "iso": "jpy"
+            }
+    ,
+            "KES": {
+                "symbol": "KSh",
+                "text": "KES (KSh)",
+                "iso": "kes"
+            }
+    ,
+            "KGS": {
+                "symbol": "сом",
+                "text": "KGS (сом)",
+                "iso": "kgs"
+            }
+    ,
+            "KHR": {
+                "symbol": "៛",
+                "text": "KHR (៛)",
+                "iso": "khr"
+            }
+    ,
+            "KMF": {
+                  "symbol": "CF",
+                  "text": "KMF (CF)",
+                  "iso": "kmf"
+              }
+    ,
+              "KRW": {
+                  "symbol": "₩",
+                  "text": "KRW (₩)",
+                  "iso": "krw"
+              }
+    ,
+              "KYD": {
+                  "symbol": "$",
+                  "text": "KYD ($)",
+                  "iso": "kyd"
+              }
+    ,
+              "KZT": {
+                  "symbol": "₸",
+                  "text": "KZT (₸)",
+                  "iso": "kzt"
+              }
+    ,
+              "LAK": {
+                  "symbol": "₭",
+                  "text": "LAK (₭)",
+                  "iso": "lak"
+              }
+    ,
+              "LBP": {
+                  "symbol": "ل.ل",
+                  "text": "LBP (ل.ل)",
+                  "iso": "lbp"
+              }
+,
+              "LKR": {
+                  "symbol": "₨",
+                  "text": "LKR (₨)",
+                  "iso": "lkr"
+              }
+,
+              "LRD": {
+                  "symbol": "$",
+                  "text": "LRD ($)",
+                  "iso": "lrd"
+              }
+,
+              "LSL": {
+                  "symbol": "L",
+                  "text": "LSL (L)",
+                  "iso": "lsl"
+              }
+,
+              "MAD": {
+                  "symbol": "د.م.",
+                  "text": "MAD (د.م.)",
+                  "iso": "mad"
+              }
+,
+              "MDL": {
+                  "symbol": "lei",
+                  "text": "MDL (lei)",
+                  "iso": "mdl"
+              }
+,
+              "MGA": {
+                  "symbol": "Ar",
+                  "text": "MGA (Ar)",
+                  "iso": "mga"
+              }
+,
+              "MKD": {
+                  "symbol": "ден",
+                  "text": "MKD (ден)",
+                  "iso": "mkd"
+              }
+,
+              "MMK": {
+                  "symbol": "K",
+                  "text": "MMK (K)",
+                  "iso": "mmk"
+              }
+,
+              "MNT": {
+                  "symbol": "₮",
+                  "text": "MNT (₮)",
+                  "iso": "mnt"
+              }
+,
+                "MOP": {
+                    "symbol": "MOP$",
+                    "text": "MOP (MOP$)",
+                    "iso": "mop"
+                }
+,
+                "MUR": {
+                    "symbol": "₨",
+                    "text": "MUR (₨)",
+                    "iso": "mur"
+                }
+,
+                "MVR": {
+                    "symbol": "Rf",
+                    "text": "MVR (Rf)",
+                    "iso": "mvr"
+                }
+,
+                "MWK": {
+                    "symbol": "MK",
+                    "text": "MWK (MK)",
+                    "iso": "mwk"
+                }
+,
+                "MXN": {
+                    "symbol": "$",
+                    "text": "MXN ($)",
+                    "iso": "mxn"
+                }
+,
+                "MYR": {
+                    "symbol": "RM",
+                    "text": "MYR (RM)",
+                    "iso": "myr"
+                }
+,
+                "MZN": {
+                    "symbol": "MT",
+                    "text": "MZN (MT)",
+                    "iso": "mzn"
+                }
+,
+                "NAD": {
+                    "symbol": "$",
+                    "text": "NAD ($)",
+                    "iso": "nad"
+                }
+,
+                "NGN": {
+                    "symbol": "₦",
+                    "text": "NGN (₦)",
+                    "iso": "ngn"
+                }
+,
+                "NIO": {
+                    "symbol": "C$",
+                    "text": "NIO (C$)",
+                    "iso": "nio"
+                }
+,
+                "NOK": {
+                    "symbol": "kr",
+                    "text": "NOK (kr)",
+                    "iso": "nok"
+                }
+,
+                "NPR": {
+                    "symbol": "₨",
+                    "text": "NPR (₨)",
+                    "iso": "npr"
+                }
+,
+                "NZD": {
+                    "symbol": "$",
+                    "text": "NZD ($)",
+                    "iso": "nzd"
+                }
+,
+           
+                "PAB": {
+                    "symbol": "B/.",
+                    "text": "PAB (B/.)",
+                    "iso": "pab"
+                }
+,
+                "PEN": {
+                    "symbol": "S/",
+                    "text": "PEN (S/)",
+                    "iso": "pen"
+                }
+,
+                "PGK": {
+                    "symbol": "K",
+                    "text": "PGK (K)",
+                    "iso": "pgk"
+                }
+,
+                "PHP": {
+                    "symbol": "₱",
+                    "text": "PHP (₱)",
+                    "iso": "php"
+                }
+,
+                "PKR": {
+                    "symbol": "₨",
+                    "text": "PKR (₨)",
+                    "iso": "pkr"
+                }
+            ,
+                  "PLN": {
+                      "symbol": "zł",
+                      "text": "PLN (zł)",
+                      "iso": "pln"
+                  },
+                  "PYG": {
+                      "symbol": "₲",
+                      "text": "PYG (₲)",
+                      "iso": "pyg"
+                  }
+,
+                "QAR": {
+                      "symbol": "ر.ق",
+                      "text": "QAR (ر.ق)",
+                      "iso": "qar"
+                  }
+,
+                  "RON": {
+                      "symbol": "lei",
+                      "text": "RON (lei)",
+                      "iso": "ron"
+                  }
+,
+                  "RSD": {
+                      "symbol": "дин.",
+                      "text": "RSD (дин.)",
+                      "iso": "rsd"
+                  }
+,
+                  "RUB": {
+                      "symbol": "₽",
+                      "text": "RUB (₽)",
+                      "iso": "rub"
+                  },
+                  "RWF": {
+                      "symbol": "RF",
+                      "text": "RWF (RF)",
+                      "iso": "rwf"
+                  }
+,
+                  "SAR": {
+                      "symbol": "ر.س",
+                      "text": "SAR (ر.س)",
+                      "iso": "sar"
+                  }
+,
+                  "SBD": {
+                      "symbol": "$",
+                      "text": "SBD ($)",
+                      "iso": "sbd"
+                  }
+,
+                  "SCR": {
+                      "symbol": "₨",
+                      "text": "SCR (₨)",
+                      "iso": "scr"
+                  }
+,
+                  "SEK": {
+                      "symbol": "kr",
+                      "text": "SEK (kr)",
+                      "iso": "sek"
+                  }
+,
+                  "SGD": {
+                      "symbol": "$",
+                      "text": "SGD ($)",
+                      "iso": "sgd"
+                  }
+,
+                  "SHP": {
+                      "symbol": "£",
+                      "text": "SHP (£)",
+                      "iso": "shp"
+                  }
+,
+                  "SLE": {
+                      "symbol": "Le",
+                      "text": "SLE (Le)",
+                      "iso": "sle"
+                  }
+,
+                  "SOS": {
+                      "symbol": "S",
+                      "text": "SOS (S)",
+                      "iso": "sos"
+                  }
+,
+                  "SRD": {
+                      "symbol": "$",
+                      "text": "SRD ($)",
+                      "iso": "srd"
+                  }
+,  
+                "STD": {
+                    "symbol": "Db",
+                    "text": "STD (Db)",
+                    "iso": "std"
+                }
+,
+                    "SZL": {
+                        "symbol": "E",
+                        "text": "SZL (E)",
+                        "iso": "szl"
+                    }
+,
+                    "THB": {
+                        "symbol": "฿",
+                        "text": "THB (฿)",
+                        "iso": "thb"
+                    }
+,
+                    "TJS": {
+                        "symbol": "ЅМ",
+                        "text": "TJS (ЅМ)",
+                        "iso": "tjs"
+                    }
+,
+                    "TOP": {
+                        "symbol": "T$",
+                        "text": "TOP (T$)",
+                        "iso": "top"
+                    }
+,
+                    "TRY": {
+                        "symbol": "₺",
+                        "text": "TRY (₺)",
+                        "iso": "try"
+                    }
+,
+                    "TTD": {
+                        "symbol": "$",
+                        "text": "TTD ($)",
+                        "iso": "ttd"
+                    }
+,
+                    "TWD": {
+                        "symbol": "NT$",
+                        "text": "TWD (NT$)",
+                        "iso": "twd"
+                    }
+,
+                    "TZS": {
+                        "symbol": "TSh",
+                        "text": "TZS (TSh)",
+                        "iso": "tzs"
+                    }
+,
+                    "UAH": {
+                        "symbol": "₴",
+                        "text": "UAH (₴)",
+                        "iso": "uah"
+                    }
+,
+                    "UGX": {
+                        "symbol": "USh",
+                        "text": "UGX (USh)",
+                        "iso": "ugx"
+                    }
+,
+               
+                    "UYU": {
+                        "symbol": "$U",
+                        "text": "UYU ($U)",
+                        "iso": "uyu"
+                    }
+,
+                    "UZS": {
+                        "symbol": "so'm",
+                        "text": "UZS (so'm)",
+                        "iso": "uzs"
+                    }
+,
+                    "VND": {
+                        "symbol": "₫",
+                        "text": "VND (₫)",
+                        "iso": "vnd"
+                    }
+,
+                    "VUV": {
+                        "symbol": "VT",
+                        "text": "VUV (VT)",
+                        "iso": "vuv"
+                    }
+,
+                    "WST": {
+                        "symbol": "WS$",
+                        "text": "WST (WS$)",
+                        "iso": "wst"
+                    }
+,
+                    "XAF": {
+                        "symbol": "FCFA",
+                        "text": "XAF (FCFA)",
+                        "iso": "xaf"
+                    }
+,
+                      "XCD": {
+                          "symbol": "$",
+                          "text": "XCD ($)",
+                          "iso": "xcd"
+                      }
+,
+                      "XOF": {
+                          "symbol": "CFA",
+                          "text": "XOF (CFA)",
+                          "iso": "xof"
+                      }
+,
+                      "XPF": {
+                          "symbol": "₣",
+                          "text": "XPF (₣)",
+                          "iso": "xpf"
+                      }
+,
+                      "YER": {
+                          "symbol": "﷼",
+                          "text": "YER (﷼)",
+                          "iso": "yer"
+                      }
+,
+                      "ZAR": {
+                          "symbol": "R",
+                          "text": "ZAR (R)",
+                          "iso": "zar"
+                      }
+,
+                      "ZMW": {
+                          "symbol": "ZK",
+                          "text": "ZMW (ZK)",
+                          "iso": "zmw"
+                      }
+                                              
+                }
